@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Knewave&family=Luckiest+Guy&display=swap');
+
+
+.projects {
+  padding: 80px 20px;
+  background: #000000;
+  color: white;
+  text-align: center;
+}
+
+.projects-title {
+  font-size: 2.5rem;
+   /* font-family: "Luckiest Guy", cursive; */
+   /* letter-spacing: 2px; */
+  margin-bottom: 30px;
+  padding :40px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: #222;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+ background: #414040;
+  color: rgb(0, 225, 255);
+  transform: translateY(-4px);
+  box-shadow: 0px 5px 5px rgba(0, 255, 255, 0.71);
+}
+
+
+.project-list li:hover {
+  background: #414040;
+  color: rgb(0, 225, 255);
+  transform: translateY(-4px);
+  box-shadow: 0px 5px 12px rgba(0, 255, 255, 0.71);
+}

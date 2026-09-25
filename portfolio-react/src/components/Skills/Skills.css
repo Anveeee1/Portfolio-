@@ -1,0 +1,72 @@
+.skills {
+  padding: 80px 20px;
+  background: #000;
+  color: white;
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  padding: 40px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skills-list li {
+  background: #222;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.skills-list li:hover {
+  /* background: white;
+  color: black;
+  cursor: pointer; */background: #414040;
+  color: rgb(0, 225, 255);
+  transform: translateY(-4px);
+  box-shadow: 0px 5px 12px rgba(0, 255, 255, 0.71);
+}
+
+
+/* .skills::before,
+.skills::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 242, 255, 0.2), transparent);
+  width: 250px;
+  height: 250px;
+  animation: float 8s ease-in-out infinite;
+  z-index: 0;
+}
+
+.skills:after {
+  background: radial-gradient(circle, rgba(255, 0, 242, 0.238), transparent);
+  width: 300px;
+  height: 300px;
+  bottom: 10%;
+  right: 15%;
+  animation-duration: 10s;
+}
+
+/* Additional floating small circles */
+/* .particle {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1), transparent);
+  width: 50px;
+  height: 50px;
+  animation: float 12s ease-in-out infinite;
+  top: 20%;
+  left: 10%;
+} */ 

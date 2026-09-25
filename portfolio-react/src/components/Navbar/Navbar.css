@@ -1,0 +1,91 @@
+/* Container */
+.navbar-container {
+  position: fixed;
+  bottom: -100px; /* hidden initially */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: bottom 0.6s ease-in-out;
+  z-index: 1000;
+}
+
+.navbar-container.show {
+  bottom: 30px; /* show once triggered */
+}
+
+/* Navbar wrapper */
+.navbar {
+  display: flex;
+  gap: 5px;
+  background: #111; /* dark background */
+  padding: 12px 20px;
+  border-radius: 18px;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Nav item */
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: #aaa;
+  background: #1a1a1a;
+  padding: 10px 18px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  min-width: 10px;
+}
+
+/* Icon */
+.nav-icon {
+  width: 22px;
+  height: 22px;
+  stroke-width: 1.8;
+}
+
+/* Label */
+.nav-item span {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Hover / active effect */
+.nav-item:hover {
+  background: #2a2a2a;
+  color: white;
+  transform: translateY(-4px);
+  box-shadow: 0px 4px 12px rgba(0, 255, 255, 0.3);
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: inherit; /* keep original text color */
+  text-decoration: none; /* remove underline */
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .navbar {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .nav-item {
+    padding: 8px 12px;
+    min-width: 60px;
+  }
+
+  .nav-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .nav-item span {
+    font-size: 12px;
+  }
+}

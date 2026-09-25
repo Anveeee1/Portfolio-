@@ -1,0 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Luckiest+Guy&display=swap');
+
+.footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 0.1px;
+  border-top: 2px solid white;
+}

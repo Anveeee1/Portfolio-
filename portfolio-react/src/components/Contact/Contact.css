@@ -1,0 +1,33 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #000000;
+  color: #fff;
+  min-height: 300px;
+  text-align: center;
+}
+
+.contact-container h2 {
+  padding-bottom: 20px;
+  
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 25px;
+}
+
+.social-icons a {
+  color: #fff;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #1fcbde; /* Change hover color */
+  transform: translateY(-5px);
+}
